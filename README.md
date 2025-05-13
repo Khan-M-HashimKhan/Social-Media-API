@@ -1,4 +1,4 @@
-# Project: Spring Social media blog API
+#Spring Social media blog API
 
 ## Background 
 

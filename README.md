@@ -1,7 +1,9 @@
 Spring Social Media Blog API
+
 This project provides the backend API for a hypothetical social media application, designed to manage user accounts and their submitted messages. It's built using the powerful Spring Boot Framework in Java, leveraging its capabilities for automatic dependency injection, data persistence, and conventional data manipulation (CRUD operations).
 
 🚀 Features
+
 This API supports essential social media functionalities, allowing users to:
 
 Register and log in to their accounts securely.
@@ -36,7 +38,7 @@ messageText	varchar(255)
 timePostedEpoch	long	
 
 Export to Sheets
-🔑 Endpoints & User Stories
+Endpoints & User Stories
 This API adheres to the following user stories, implemented as RESTful endpoints:
 
 User Accounts
@@ -92,12 +94,15 @@ Failure (400 Bad Request): Validation errors or message not found.
 8. Retrieve all messages by a particular user
 Endpoint: GET /accounts/{accountId}/messages
 Response (200 OK): JSON list containing all messages posted by the specified user. (Empty list if no messages from that user).
-🚀 Getting Started
+
+Getting Started
+
 To run this project, ensure you have Java and Maven installed. The application is a Spring Boot project, so you can build and run it using standard Spring Boot commands.
 
 This project comes with pre-configured Spring Boot settings, valid application.properties for database setup, and essential database entities. Your task is to implement the service logic and controllers to fulfill the user stories.
 
-🧪 Testing
+Testing
+
 The project includes functional test cases and "SpringTest" to verify the proper leveraging of the Spring framework, including Spring Boot, Spring MVC, and Spring Data. Specifically, SpringTest will ensure:
 
 Beans for AccountService, MessageService, AccountRepository, MessageRepository, and SocialMediaController classes are properly configured.

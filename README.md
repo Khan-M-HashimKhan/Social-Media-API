@@ -1,4 +1,4 @@
-Spring Social Media Blog API
+#Spring Social Media Blog API
 
 This project provides the backend API for a hypothetical social media application, designed to manage user accounts and their submitted messages. It's built using the powerful Spring Boot Framework in Java, leveraging its capabilities for automatic dependency injection, data persistence, and conventional data manipulation (CRUD operations).
 
